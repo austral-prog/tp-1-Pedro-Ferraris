@@ -8,3 +8,8 @@ def time():
     3. Segundos restantes
     """
     total_segundos = 3665
+
+    print(total_segundos//3600)
+    print(total_segundos//3665)
+    print(total_segundos%60)
+#time()

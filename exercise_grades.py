@@ -11,3 +11,17 @@ def grades():
     nota1 = 8
     nota2 = 7
     nota3 = 9
+
+    notas=[8,7,9]
+    promedio=(8+7+9)/3
+    nota_max=max(notas)
+    nota_min=min(notas)
+    dif_10=10-promedio
+
+
+    print(promedio)
+    print(nota_max)
+    print(nota_min)
+    print(dif_10)
+
+#grades()

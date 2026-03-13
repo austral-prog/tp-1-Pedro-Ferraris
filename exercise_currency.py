@@ -11,3 +11,14 @@ def currency():
     tasa_dolar = 1500  # 1 dólar = 1500 pesos
     tasa_euro = 1600   # 1 euro = 1600 pesos
     tasa_real = 250    # 1 real = 250 pesos
+
+    monto_usd=pesos/1500
+    monto_eu=pesos/1600
+    monto_br=pesos/250
+
+    print(monto_usd)
+    print(monto_eu)
+    print(monto_br)
+
+
+#currency()
